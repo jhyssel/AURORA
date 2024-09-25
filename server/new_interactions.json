@@ -1,0 +1,60 @@
+{"patterns": ["hola"], "responses": ["Hey"], "tag": "greetings"}
+{"patterns": ["que pasa"], "responses": ["Que es lo que pasa?"], "tag": "greetings"}
+{"patterns": ["nada"], "responses": ["Hey"], "tag": "greetings"}
+{"patterns": ["mmm?"], "responses": ["Hey"], "tag": "greetings"}
+{"patterns": ["mmm?"], "responses": ["En que te puedo ayudar?"], "tag": "greetings"}
+{"patterns": ["en nada"], "responses": ["Nuestras residencias universitarias proporcionan un ambiente seguro y c\u00c3\u00b3modo para vivir."], "tag": "campus_life"}
+{"patterns": ["no es esa la respuesta que esperaba"], "responses": ["Lo siento, no puedo decirte la hora exacta"], "tag": "time"}
+{"patterns": ["como que hora exacta?"], "responses": ["Mira la hora en tu tel\u00c3\u00a9fono"], "tag": "time"}
+{"patterns": ["no tengo telefono"], "responses": ["\u00c2\u00a1Hasta luego!"], "tag": "farewell"}
+{"patterns": ["noooo"], "responses": ["Hey"], "tag": "greetings"}
+{"patterns": ["hola"], "responses": ["En que te puedo ayudar?"], "tag": "greetings"}
+{"patterns": ["necesito informacion de una universidad"], "responses": ["necesito informacion de una universidad de la historia de la historia de la historia de la historia de la historia de la historia de la historia de la historia de la historia de la historia"], "tag": "unknown"}
+{"patterns": ["what"], "responses": ["what, you're not going to get a job?\"\n\n\"I'm not going to get a job,\" she said. \"I'm not going to get a job.\"\n\n\"I'm not going to get a job,\" she said"], "tag": "unknown"}
+{"patterns": ["what happend?"], "responses": ["what happend?\n\nI'm not sure what happened, but I'm sure it was a lot of fun.\n\nI'm sure you're all excited about it.\n\nI'm sure you're all excited about it.\n\n"], "tag": "unknown"}
+{"patterns": ["que pasa"], "responses": ["Que es lo que pasa?"], "tag": "greetings"}
+{"patterns": ["j& C:/Python312/python.exe c:/Users/ZAP/Desktop/Proyecto-IA/chatbot.py"], "responses": ["En que te puedo ayudar?"], "tag": "greetings"}
+{"patterns": ["ajaja"], "responses": ["Hey"], "tag": "greetings"}
+{"patterns": ["dime"], "responses": ["En que te puedo ayudar?"], "tag": "greetings"}
+{"patterns": ["neceisto info"], "responses": ["Hello"], "tag": "greetings"}
+{"patterns": ["mmm?"], "responses": ["Hey"], "tag": "greetings"}
+{"patterns": ["que"], "responses": ["En que te puedo ayudar?"], "tag": "greetings"}
+{"patterns": ["dime algo que no sepa"], "responses": ["dime algo que no sepa que no sepa que no sepa que no sepa que no sepa que no sepa que no sepa que no sepa que no sepa que no sepa que no sepa que no"], "tag": "unknown"}
+{"patterns": ["hi brp"], "responses": ["Hello"], "tag": "greetings"}
+{"patterns": ["como estas"], "responses": ["Que es lo que pasa?"], "tag": "greetings"}
+{"patterns": ["necesito ayuda en algo"], "responses": ["Estoy aqu\u00c3\u00ad para ayudarte, \u00c2\u00bfqu\u00c3\u00a9 necesitas?"], "tag": "help"}
+{"patterns": ["sabes de noticias?"], "responses": ["sabes de noticias?\n\nThe answer is yes.\n\nThe first thing you need to know about the term \"noticias\" is that it is a term that is used to describe a group of people who are not"], "tag": "unknown"}
+{"patterns": ["hola"], "responses": ["Que es lo que pasa?"], "tag": "greetings"}
+{"patterns": ["ninguna cosa"], "responses": ["Hey"], "tag": "greetings"}
+{"patterns": ["si?"], "responses": ["Hey"], "tag": "greetings"}
+{"patterns": ["si?"], "responses": ["Que es lo que pasa?"], "tag": "greetings"}
+{"patterns": ["nada"], "responses": ["En que te puedo ayudar?"], "tag": "greetings"}
+{"patterns": ["jaja, en mchas cosas"], "responses": ["Ofrecemos una variedad de clubes y organizaciones estudiantiles para que te involucres."], "tag": "campus_life"}
+{"patterns": ["porque me hablas de eso?"], "responses": ["\u00c2\u00bfPor qu\u00c3\u00a9 no le puedes contar un secreto a una corneta? Porque siempre lo toca."], "tag": "jokes"}
+{"patterns": ["que?"], "responses": ["Hey"], "tag": "greetings"}
+{"patterns": ["dime"], "responses": ["Hey"], "tag": "greetings"}
+{"patterns": ["dime, no respondas eso"], "responses": ["dime, no respondas eso, no eso, no eso, no eso, no eso, no eso, no eso, no eso, no eso, no eso, no eso, no"], "tag": "unknown"}
+{"patterns": ["hola"], "responses": ["En que te puedo ayudar?"], "tag": "greetings"}
+{"patterns": ["en muchad cosas"], "responses": ["La vida en el campus es vibrante y diversa, con numerosas actividades y eventos para los estudiantes."], "tag": "campus_life"}
+{"patterns": ["hola"], "responses": ["Hey"], "tag": "greetings"}
+{"patterns": ["aprendamos mas cosas"], "responses": ["Hey"], "tag": "greetings"}
+{"patterns": ["aprendamos mas cosas"], "responses": ["Hello"], "tag": "greetings"}
+{"patterns": ["sabias que "], "responses": ["Hey"], "tag": "greetings"}
+{"patterns": ["que?"], "responses": ["Que es lo que pasa?"], "tag": "greetings"}
+{"patterns": ["sabias que las situaciones son graves en el departamento de bolivia ?"], "responses": ["Nuestras residencias universitarias proporcionan un ambiente seguro y c\u00c3\u00b3modo para vivir."], "tag": "campus_life"}
+{"patterns": ["jajaja"], "responses": ["Que es lo que pasa?"], "tag": "greetings"}
+{"patterns": ["nada"], "responses": ["En que te puedo ayudar?"], "tag": "greetings"}
+{"patterns": ["necesito tu ayuda"], "responses": ["Claro, \u00c2\u00bfc\u00c3\u00b3mo puedo asistirte?"], "tag": "help"}
+{"patterns": ["lo haras diciendome cuando es mi cumplea\u00f1os ?"], "responses": ["A ti"], "tag": "thanks"}
+{"patterns": ["jajaja"], "responses": ["Hello"], "tag": "greetings"}
+{"patterns": ["si"], "responses": ["Que es lo que pasa?"], "tag": "greetings"}
+{"patterns": ["necesito que me digas que significado tiene una palabra"], "responses": ["Claro, \u00c2\u00bfc\u00c3\u00b3mo puedo asistirte?"], "tag": "help"}
+{"patterns": ["perfecto en esta ocasion aprenderemos nuevas cosas"], "responses": ["La vida en el campus es vibrante y diversa, con numerosas actividades y eventos para los estudiantes."], "tag": "campus_life"}
+{"patterns": ["mi cumplea\u00f1os es el 27 de enero "], "responses": ["mi cumplea\u00f1os es el 27 de enero ile en la muerte de la muerte de la muerte de la muerte en la muerte de la muerte de la muerte"], "tag": "unknown"}
+{"patterns": ["cuando es mi cumplea\u00f1os?"], "responses": ["cuando es mi cumplea\u00f1os? (I know I'm not the only one who is. This is why I'm so tired.)\n\nI think we all need to go to a local food court and get a good meal"], "tag": "unknown"}
+{"patterns": ["okey"], "responses": ["Hey"], "tag": "greetings"}
+{"patterns": ["necesito que se vaya guardando esta respuesta"], "responses": ["Claro, \u00c2\u00bfc\u00c3\u00b3mo puedo asistirte?"], "tag": "help"}
+{"patterns": ["cuando se fundo bolivia ?"], "responses": ["Que es lo que pasa?"], "tag": "greetings"}
+{"patterns": ["cuentame un chiste"], "responses": ["\u00c2\u00bfPor qu\u00c3\u00a9 no le puedes contar un secreto a una corneta? Porque siempre lo toca."], "tag": "jokes"}
+{"patterns": ["cuentame otro chiste"], "responses": ["\u00c2\u00bfQu\u00c3\u00a9 hace una abeja en el gimnasio? \u00c2\u00a1Zum-ba!"], "tag": "jokes"}
+{"patterns": ["JAJAJAJA"], "responses": ["Hey"], "tag": "greetings"}

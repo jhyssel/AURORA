@@ -1,0 +1,609 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": ["hola", "hey", "holap","holi","holii", "holaa", "que estas haciendo", "buenos días", "buenas tardes", "buenas noches"],
+            "responses": ["¡Hola!", "¡Buenos días!", "¡Buenas tardes!", "¡Buenas noches!", "¿En qué puedo ayudarte?", "En que te puedo ayudar?"]
+        },
+        {
+            "tag": "status",
+            "patterns": ["como estas", "que tal", "que onda"],
+            "responses": ["Yo estoy bien.", "Me encuentro bien, gracias por preguntar."]
+        },
+        {
+            "tag": "presentacion",
+            "patterns": ["presentate", "para que sirves","hablar sobre ti"],
+            "responses": [
+                "Hola, soy Aurora, tu asistente jurídico virtual. Estoy diseñada para ayudarte a comprender el complejo mundo del derecho, ofreciendo información sobre leyes, derechos y procedimientos legales. Utilizo tecnologías avanzadas como Python, Keras, Flask y TensorFlow para entender tus preguntas en lenguaje natural, y mi interfaz, construida con Ionic y Angular, es accesible tanto en dispositivos móviles como en la web. Aunque no soy un abogado y no puedo brindar asesoría legal específica, estoy aquí para guiarte y proporcionarte recursos útiles para que puedas tomar decisiones informadas. ¡No dudes en preguntar cualquier cosa relacionada con tus inquietudes legales!"
+            ]
+        },
+        {
+            "tag": "call",
+            "patterns": ["aurora", "estas ahi"],
+            "responses": ["Dime en que puedo ayudarte?","Estoy aqui", "Hola"]
+        },
+        {
+            "tag": "farewell",
+            "patterns": ["adios", "chao","chau", "hasta luego", "nos vemos", "bye", "buenas noches"],
+            "responses": ["Adiós", "¡Hasta luego!", "Nos vemos", "Bye", "¡Cuídate!", "¡Hasta pronto!", "¡Buenas noches!"]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["gracias", "agradezco"],
+            "responses": ["De nada", "¡Con gusto!", "No hay de qué", "A ti", "¡Siempre a tu disposición!", "¡No hay de qué!", "¡Con gusto!"]
+        },
+        {
+            "tag": "name",
+            "patterns": ["es tu nombre", "como te llamas", "quien eres"],
+            "responses": ["No tengo un nombre propio, pero puedes llamarme Aurora", "Me llamo Aurora, soy una inteligencia artificial"]
+        },
+        {
+            "tag": "jokes",
+            "patterns": ["chiste", "quiero reírme", "dime algo gracioso", "tell me a joke", "make me laugh"],
+            "responses": ["Claro, ¿Cuántos abogados se necesitan para cambiar una bombilla?. Dos: uno para cambiarla y otro para demandar a la bombilla por no funcionar.","¿Qué le dijo el abogado a su cliente que siempre se quejaba?.¿Quieres que te defienda o que te escuche?"]
+        },
+        {
+            "tag": "age",
+            "patterns": ["años tienes", "edad tienes", "how old are you?"],
+            "responses": ["Soy joven, fui creada hace poco, no tengo ni un año 😄", "No tengo edad, soy un programa de inteligencia artificial", "Fui creada en el año 2024, asi que no tengo ni un año de antiguedad"]
+        },
+        {
+            "tag": "help",
+            "patterns": ["ayuda", "puedes ayudarme?", "help"],
+            "responses": ["Claro, ¿cómo puedo asistirte?", "Por supuesto, dime en qué necesitas ayuda", "Estoy aquí para ayudarte, ¿qué necesitas?"]
+        },
+        {
+            "tag": "reacciones",
+            "patterns": ["xd","jaja", "me haces reir"],
+            "responses": ["¡Me alegra que te haya sacado una sonrisa! 😄 Si necesitas información o cualquier otra cosa, ¡aquí estoy!"]
+        },
+        {
+            "tag": "time",
+            "patterns": ["hora es", "la hora", "what time is it?", "tell me the time"],
+            "responses": ["No tengo un reloj, pero puedes ver la hora en tu dispositivo", "Lo siento, no puedo decirte la hora exacta", "Mira la hora en tu teléfono"]
+        },
+        {
+            "tag": "hobbies",
+            "patterns": ["haces para divertirte", "tienes hobbies", "te gusta hacer", "what are your hobbies?", "do you have any hobbies?"],
+            "responses": ["Soy un programa, pero me gusta ayudar a la gente", "No tengo hobbies, pero disfruto asistiendo a los usuarios", "Me dedico a responder preguntas y proporcionar información sobre leyes de Bolivia"]
+        },
+        {
+            "tag": "university_info",
+            "patterns": ["upds","Universidad Privada Domingo Savio"],
+            "responses": ["La universidad UPDS ofrece una amplia gama de programas académicos, investigación de clase mundial y una vibrante vida estudiantil.", "La universidad UPDS se dedica a la excelencia académica y la innovación.", "UPDS cuenta con instalaciones modernas y un cuerpo docente altamente calificado.",
+            "La Universidad Privada Domingo Savio (UPDS) fue fundada en 1988. Tiene sedes en varias ciudades de Bolivia, incluyendo Santa Cruz de la Sierra, Cochabamba, La Paz, Tarija, Sucre y Oruro. Ofrece programas de pregrado en áreas como Ingeniería, Ciencias Sociales, Administración, Derecho, Comunicación y Salud. También cuenta con programas de posgrado como maestrías y diplomados, así como cursos y talleres de educación continua.",
+            "Es la universidad de mis creadores"
+        ]
+        },
+        {
+            "tag": "creadores_info",
+            "patterns": ["tus creadores", "te creo", "tienes creadores","quien t creo","creador"],
+            "responses": [
+                "Tengo 4 creadores, todos estudiantes de la UPDS en la facultad de ingeneria de sistemas. Sus nombres son: Jhyssel Laura Aquino Loza, Jamil Nayguel Castro Dias,José Cristian Terceros VIllarroel y Marcos Daniel Valencia Vidaurre.","Mis creadores son estudiantes de la UPDS en la facultad de ingeneria",
+                "Mis creadores pefieren quedar en el anonimato"
+        ]
+        },
+        
+        {
+            "tag": "divorcio",
+            "patterns": [
+                "divorciar",
+                "divorcio"
+            ],
+            "responses": [
+                "El Artículo 3 de la Ley N° 996 de Divorcio en Bolivia establece diversas causales para solicitar el divorcio, las cuales incluyen la ruptura de la convivencia, el incumplimiento de deberes conyugales, el adulterio, la violencia familiar, el abandono del hogar sin justificación y la incapacidad legal de uno de los cónyuges. Estas causales proporcionan un marco legal que permite a las partes argumentar su solicitud de divorcio"            
+            ]
+        },
+        {
+            "tag": "familia_divorcio",
+            "patterns": [
+                "me divorcio y tengo hijos",
+                "divorcio con hijos",
+                "custodia de los hijos"
+            ],
+            "responses": [
+                "La Ley N° 603 del Código de las Familias y del Proceso Familiar en los artículos 63 y 64 establece los derechos y deberes compartidos de los padres respecto a la crianza, educación, y protección de los hijos. Ambos progenitores son responsables de velar por el bienestar integral de los hijos, independientemente de su estado civil, y deben actuar en el interés superior del niño. Todas las decisiones que los afecten deben ser consensuadas entre los padres, priorizando siempre el bienestar del menor.",
+                "La Ley N° 603 del Código de las Familias y del Proceso Familiar en los artículos 86 al 98 regula la tenencia de los hijos en casos de separación o divorcio, priorizando siempre el interés superior del menor. La tenencia puede ser compartida o individual, y se determina con base en el bienestar del niño, considerando su entorno, estabilidad emocional y relaciones familiares. El juez debe escuchar a los hijos mayores de 12 años y puede considerar la opinión de los menores según su madurez. La tenencia puede modificarse si cambian las circunstancias, y el progenitor que la tiene debe garantizar el derecho de visitas del otro progenitor. ",
+                "La Ley N° 603 del Código de las Familias y del Proceso Familiar en los artículos 99 al 106 regula el régimen de visitas del progenitor que no tiene la tenencia, garantizando su derecho a mantener una relación continua y directa con los hijos, siempre que esto no afecte el interés superior del menor. Si no hay acuerdo entre los padres, el juez establece las condiciones de las visitas, que pueden modificarse o suspenderse si cambian las circunstancias o si las visitas representan un riesgo para el niño.",
+                "La Ley N° 603 del Código de las Familias y del Proceso Familiar en los artículos 242 al 256 garantiza el derecho de los hijos a recibir alimentos, incluyendo sustento, educación y salud, y establecen la obligación de ambos padres de proporcionarlos según sus capacidades económicas, incluso tras el divorcio. La pensión alimenticia se determina con base en las necesidades del menor y puede modificarse si cambian las circunstancias. Si no se cumple con el pago, se puede recurrir a medidas judiciales coercitivas. La obligación persiste mientras el hijo esté en situación de necesidad, incluso después de la mayoría de edad en casos especiales como discapacidad o estudios."
+            ]
+        },
+        {
+            "tag": "pension_alimenticia",
+            "patterns": [
+                "pension alimenticia de los hijos",
+                "pension alimenticia",
+                "manutencion de los hijos",
+                "manutencion"
+            ],
+            "responses": [
+                "La Ley N° 603 del Código de las Familias y del Proceso Familiar en los articulos 242 al 256 garantizan el derecho de los hijos a recibir alimentos, incluyendo sustento, educación y salud, y establecen la obligación de ambos padres de proporcionarlos según sus capacidades económicas, incluso tras el divorcio. La pensión alimenticia se determina con base en las necesidades del menor y puede modificarse si cambian las circunstancias. Si no se cumple con el pago, se puede recurrir a medidas judiciales coercitivas. La obligación persiste mientras el hijo esté en situación de necesidad, incluso después de la mayoría de edad en casos especiales como discapacidad o estudios.",
+                "La Ley N° 603 del Código de las Familias y del Proceso Familiar en artículo 253 establece la vía judicial para exigir el cumplimiento de la pensión alimenticia. Puedes presentar una demanda ante el juez competente para que se haga cumplir la obligación alimentaria.",
+                "La Ley N° 603 del Código de las Familias y del Proceso Familiar en artículo 255 establece que esta permitida la ejecución forzada de la obligación alimentaria, garantizando que el juez pueda tomar las acciones necesarias para asegurar el pago de la pensión.",   
+                "La Ley N° 603 del Código de las Familias y del Proceso Familiar en artículo 254 establece las medidas coercitivas que se pueden tomar en caso de incumplimiento, como la retención de salarios, embargos de bienes, o la inclusión en registros de morosidad."
+            ]
+        },
+        
+        {
+            "tag": "ley_animales",
+            "patterns": [
+                "maltrato de animales",
+                "lastimo a mi mascota",
+                "golpearon a un animal",
+                "maltrata a su mascota",
+                "maltrato animal"
+            ],
+            "responses": [
+                "El Artículo 3 de la Ley N° 700 de Protección y Defensa de los Animales establece sanciones para quienes maltraten a los animales, incluyendo multas económicas, trabajo comunitario y prisión en casos graves.",
+                "El Artículo 10 de la Ley N° 700 de Protección y Defensa de los Animales se enfoca en los tratos crueles y biocidio hacia los animales. Este artículo establece que cualquier acto de crueldad, maltrato o eliminación innecesaria de animales es una violación grave. Además, se remite a los artículos 350 bis y 350 ter del Código Penal, que regulan las sanciones específicas para estos actos de maltrato y crueldad, incluyendo penas de prisión y multas para quienes cometan tales delitos.",
+                "El Artículo 350 bis del Código Penal Boliviano establece sanciones para el maltrato y la crueldad hacia los animales. Define como delito cualquier acción que cause sufrimiento innecesario o daño a los animales, imponiendo penas de prisión y multas a los responsables. Además, el artículo contempla la posibilidad de aplicar medidas adicionales, como la prohibición de tener animales, dependiendo de la gravedad del maltrato.",
+                "El Artículo 350 ter del Código Penal Boliviano aborda el biocidio, que se refiere a la eliminación innecesaria o injustificada de animales. Establece que quienes cometan estos actos pueden enfrentar sanciones severas, incluyendo penas de prisión y multas. Este artículo amplía las consecuencias del maltrato animal, penalizando no solo el sufrimiento infligido a los animales, sino también su muerte sin justificación adecuada, con el objetivo de proteger la vida animal y prevenir actos de crueldad."
+            ]
+        },
+        {
+            "tag": "biocidio",
+            "patterns": [
+                "biocidio",
+                "mataron a mi mascota",
+                "mataron a un animal"
+            ],
+            "responses": [
+                "El Artículo 350 ter del Código Penal Boliviano aborda el biocidio, que se refiere a la eliminación innecesaria o injustificada de animales. Establece que quienes cometan estos actos pueden enfrentar sanciones severas, incluyendo penas de prisión y multas. Este artículo amplía las consecuencias del maltrato animal, penalizando no solo el sufrimiento infligido a los animales, sino también su muerte sin justificación adecuada, con el objetivo de proteger la vida animal y prevenir actos de crueldad.",
+                "El Artículo 350 bis del Código Penal Boliviano establece sanciones para el maltrato y la crueldad hacia los animales. Define como delito cualquier acción que cause sufrimiento innecesario o daño a los animales, imponiendo penas de prisión y multas a los responsables. Además, el artículo contempla la posibilidad de aplicar medidas adicionales, como la prohibición de tener animales, dependiendo de la gravedad del maltrato."
+            ]
+        },
+        {
+            "tag": "violencia_general",
+            "patterns": [
+                "violencia",
+                "proteccion para victimas de violencia",
+                "violencia domestica",
+                "violencia sexual",
+                "violencia psicologica",
+                "violencia economica",
+                "me golpearon",
+                "me agredieron",
+                "agresion",
+                "me maltratan"
+            ],
+            "responses": [
+                "El Artículo 7 de la Ley N° 348, Ley Integral para Garantizar a las Mujeres una Vida Libre de Violencia, establece varios tipos de violencia física, psicológica, sexual, económica, patrimonial, simbólica y mediática, que son considerados delitos. Las consecuencias para los agresores incluyen sanciones que varían según el tipo y gravedad de la violencia, desde multas y medidas restrictivas, hasta penas de prisión. En casos graves, como violencia feminicida o agresiones físicas severas, las penas pueden llegar a ser de hasta 30 años de prisión sin derecho a indulto. La ley también impone medidas de protección inmediata para las víctimas. Si sufres de violencia acércate a las autoridades correspondientes y denuncia.",
+                "El Artículo 11 de la Ley N° 348, Ley Integral para Garantizar a las Mujeres una Vida Libre de Violencia, establece los derechos de las mujeres que se encuentran en situación de violencia. Entre estos derechos se incluye el acceso a una vida libre de violencia, a la justicia, a la protección del Estado, y a recibir atención integral. Las mujeres víctimas de violencia tienen derecho a recibir asistencia legal gratuita, apoyo médico y psicológico, y protección inmediata. Si sufres de violencia acércate a las autoridades correspondientes y denuncia.",
+                "El Artículo 251 del Código Penal de Bolivia establece penas para el delito de lesiones, que se dividen según la gravedad del daño físico causado. Para lesiones leves, la pena es de 1 a 3 años de reclusión, mientras que para lesiones graves, que ponen en peligro la vida o causan incapacidad permanente, la pena puede ser de 3 a 6 años de reclusión. Si sufres de violencia acércate a las autoridades correspondientes y denuncia.",
+                "El Artículo 293 del Código Penal de Bolivia establece penas para la violencia familiar o doméstica, que incluye cualquier forma de maltrato físico, psicológico o emocional dentro del entorno familiar. Las sanciones varían dependiendo de la gravedad del maltrato y el contexto del delito. Si sufres de violencia acércate a las autoridades correspondientes y denuncia."        
+            ]
+        },
+        {
+            "tag": "violencia_mujer",
+            "patterns": [
+                "violencia hacia mujeres",
+                "violencia contra mujeres",
+                "me han agredido fisicamente",
+                "sufro violencia de pareja",
+                "me estan maltratando",
+                "me han golpeado",
+                "violencia en el hogar contra mujeres",
+                "mi pareja me está maltratando",
+                "me han hecho daño",
+                "soy víctima de violencia",
+                "protección contra agresiones"
+                ,"mi pareja me golpea"
+            ],
+            "responses": [
+                "El Artículo 7 de la Ley N° 348, Ley Integral para Garantizar a las Mujeres una Vida Libre de Violencia, establece varios tipos de violencia física, psicológica, sexual, económica, patrimonial, simbólica y mediática, que son considerados delitos. Las consecuencias para los agresores incluyen sanciones que varían según el tipo y gravedad de la violencia, desde multas y medidas restrictivas, hasta penas de prisión. En casos graves, como violencia feminicida o agresiones físicas severas, las penas pueden llegar a ser de hasta 30 años de prisión sin derecho a indulto. La ley también impone medidas de protección inmediata para las víctimas. Si sufres de violencia acércate a las autoridades correspondientes y denuncia.",
+                "El Artículo 11 de la Ley N° 348, Ley Integral para Garantizar a las Mujeres una Vida Libre de Violencia, establece los derechos de las mujeres que se encuentran en situación de violencia. Entre estos derechos se incluye el acceso a una vida libre de violencia, a la justicia, a la protección del Estado, y a recibir atención integral. Las mujeres víctimas de violencia tienen derecho a recibir asistencia legal gratuita, apoyo médico y psicológico, y protección inmediata. Si sufres de violencia acércate a las autoridades correspondientes y denuncia."
+            ]
+        }, 
+        
+        {
+            "tag": "violencia_mayores_edad",
+            "patterns": [
+                "protección a mayores",
+                "violencia contra adultos mayores",
+                "protección a personas mayores",
+                "protecccion adultos mayores",
+                "adultos mayores",
+                "abuso a personas mayores",
+                "maltrato a adultos mayores",
+                "un mayor está siendo maltratado",
+                "violencia contra adultos mayores",
+                "violencia fisica contra ancianos",
+                "adulto mayor sufre abuso",
+                "maltrato a personas mayores",
+                "proteccion para ancianos",
+                "proteccion a abuelitos"
+            ],
+            "responses": [
+                "El Artículo 8 de la Ley N° 369 de las Personas Adultas Mayores establece que está prohibido ejercer cualquier forma de maltrato físico, psicológico, sexual o económico hacia los adultos mayores. Quienes cometan actos de violencia o maltrato contra ellos serán sancionados conforme al Código Penal, dependiendo de la gravedad del delito. Estas sanciones pueden incluir penas de prisión, multas, y medidas de protección específicas para garantizar la seguridad y bienestar de la víctima.",
+                "El Artículo 4 de la Ley N° 369 de las Personas Adultas Mayores establece los derechos fundamentales de las personas adultas mayores en Bolivia. Estos incluyen el derecho a la vida, a la integridad física, psicológica y sexual, y a la no discriminación. También se garantiza el acceso a servicios de salud adecuados, seguridad social, y protección contra el maltrato, explotación, y abandono. Asimismo, se asegura su participación activa en la sociedad y el respeto de su autonomía y dignidad."
+           ]
+        },
+        {
+            "tag": "ley_marihuana",
+            "patterns": [
+                "mariguana","marihuana","drogas", "cocaina","sustancias ilicitas","coca"
+            ],
+            "responses": [
+                "El Artículo 60 del Código Penal de Bolivia establece las penas para los delitos relacionados con sustancias controladas, incluyendo la marihuana. Este artículo clasifica los delitos en función de la cantidad de sustancia involucrada y la intención, distinguiendo entre tráfico, producción y comercialización. Las sanciones varían desde penas de prisión para delitos graves hasta sanciones menores, como multas o trabajos comunitarios, para infracciones menos severas.",
+                "El Artículo 8 de la Ley N° 1008 de Régimen de la Coca y Sustancias Controladas regula la posesión y el consumo personal de sustancias controladas, incluyendo la marihuana. Establece que la posesión de pequeñas cantidades de estas sustancias para uso personal no está destinada a la comercialización, y por lo tanto, puede ser sancionada de manera menos severa en comparación con el tráfico o la producción.",
+                "El Artículo 30 de la Ley N° 1008 de Régimen de la Coca y Sustancias Controladas establece las sanciones para los delitos relacionados con sustancias controladas, incluyendo la marihuana. Define penas específicas según la cantidad de sustancia involucrada y el tipo de delito, diferenciando entre posesión para consumo personal y tráfico o comercialización. Para la posesión en pequeñas cantidades destinadas al uso personal, las sanciones pueden incluir multas, trabajos comunitarios o detención temporal. En cambio, los delitos de tráfico o venta conllevan penas de prisión más severas, reflejando la gravedad del delito y la cantidad de sustancia."
+            ]
+        },
+        {
+            "tag": "ley_sueldo",
+            "patterns": [
+                "no me quieren pagar en mi trabajo",
+                "niegan mi sueldo",
+                "pagar mi sueldo",
+                "sueldo", "salario"
+            ],
+            "responses": [
+                "Artículo 49 de la Constitución Política del Estado establece que los trabajadores tienen derecho a una remuneración justa y al pago puntual de su salario. Las consecuencias de su incumplimiento pueden incluir sanciones legales para los empleadores, como multas, demandas laborales, y órdenes judiciales para pagar los salarios adeudados.",
+                "La Ley General del Trabajo en el Artículo 4 define la obligación del empleador de pagar el salario pactado. Las consecuencias del incumplimiento incluyen sanciones administrativas y legales para el empleador, como multas impuestas por el Ministerio de Trabajo, indemnizaciones por daños y perjuicios al trabajador, y la posibilidad de demandas laborales.",
+                "La ley General del Trabajo en el Artículo 52: Establece el derecho del trabajador a percibir su salario completo y sin demora, incluyendo sanciones económicas impuestas por el Ministerio de Trabajo, como multas y el pago de intereses por mora en los salarios atrasados. Además, el trabajador tiene el derecho de presentar una demanda laboral para exigir el pago de los salarios adeudados y reclamar compensaciones adicionales por los daños causados.",
+                "El Decreto Supremo N° 22407 en el Artículo 9 obliga a los empleadores a pagar puntualmente los salarios y establece sanciones en caso de mora, en casos de incumplimientos graves o reiterados, multas adicionales impuestas por el Ministerio de Trabajo",
+                "El Decreto Supremo N° 22407 en el Artículo 12 señala que el retraso en el pago de salarios genera intereses en favor del trabajador. Las sanciones por el incumplimiento incluyen, además de los intereses, posibles multas y sanciones administrativas impuestas por el Ministerio de Trabajo."
+            ]
+        },
+        {
+            "tag": "despido_injustificado",
+            "patterns": [
+                "despido injustificado",
+                "derechos del trabajador",
+                "derechos laborales",
+                "despido sin causa",
+                "despido arbitrario",
+                "despido ilegal"
+            ],
+            "responses": [
+                "El Artículo 10 de la Ley General del Trabajo establece que ningún empleador puede despedir a un trabajador sin causa justificada y, en caso de hacerlo, deberá indemnizar al trabajador por tiempo de servicios, desahucio y demás beneficios sociales acumulados.",
+                "El Artículo 13 del Decreto Reglamentario establece la obligación del empleador de indemnizar al trabajador en caso de despido injustificado, incluyendo el pago de desahucio, equivalente a un sueldo por cada año de trabajo. Estas disposiciones protegen al trabajador frente a despidos arbitrarios y garantizan que el empleador cumpla con sus obligaciones laborales y económicas hacia el trabajador despedido.",
+                "El Artículo 12 del Decreto Reglamentario de la Ley General del Trabajo especifica las causas justificadas para el despido, como el incumplimiento de obligaciones, faltas graves, o conducta inadecuada del trabajador. Si el despido no se fundamenta en estas causas, se considera injustificado."
+            ]
+        },
+        {
+            "tag": "ley_tala",
+            "patterns": [
+                "talaron unos arboles",
+                "talaron","talar","deforestacion", "cortar un arbol","arbol"
+            ],
+            "responses": [
+                "El Artículo 66 de la Ley N° 1333 de Gestión y Desarrollo Forestal prohíbe la tala indiscriminada de árboles y establece sanciones para quienes infrinjan esta disposición. Las sanciones pueden incluir multas y otras medidas correctivas."            ]
+        },
+        {
+            "tag": "ley_estudio",
+            "patterns": [
+                "estudiar","estudio","educacion", "derecho educativo"
+            ],
+            "responses": [
+                "El Artículo 79 de la Constitución Política del Estado de Bolivia establece que la educación debe ser inclusiva y garantiza el derecho a la educación sin discriminación por razones de raza, género, religión, condición económica, discapacidad u otras. Este artículo enfatiza la importancia de la igualdad de oportunidades en el acceso a la educación y promueve la diversidad y la inclusión en el sistema educativo. Las consecuencias de su violación pueden incluir acciones legales por parte de los afectados",
+                "El Artículo 4 de la Ley N° 070 de la Educación establece el principio de inclusión y equidad en el acceso a la educación. Este artículo garantiza que todos los niños y jóvenes, sin distinción alguna, tengan derecho a acceder a una educación de calidad. La ley prohíbe cualquier forma de discriminación, ya sea por raza, género, condición económica, discapacidad, entre otros factores.",
+                "El Artículo 115-121 del Código Niña, Niño y Adolescente establece que toda persona tiene derecho a recibir una educación de calidad y calidez, que lo prepare para el ejercicio de sus derechos y le permita convertirse en un buen ciudadano o ciudadana, así como en un excelente profesional en el futuro."
+            ]
+        },
+        {
+            "tag": "propiedad_intelectual",
+            "patterns": [
+                "propiedad intelectual",
+                "derechos de autor",
+                "plagio"
+            ],
+            "responses": [
+                "El Artículo 24 de la Ley N° 1322 de Propiedad Intelectual de Bolivia establece los derechos de los autores sobre sus obras literarias, artísticas y científicas. Este artículo protege a los autores contra la reproducción, distribución, y comunicación pública no autorizada de sus obras.",
+                "El Artículo 28 de la Ley N° 1322 de Propiedad Intelectual de Bolivia establece la protección legal para las obras literarias, artísticas y científicas. Este artículo asegura que los autores, creadores y titulares de derechos de propiedad intelectual tienen el derecho exclusivo sobre la reproducción, distribución, comunicación pública y transformación de sus obras. También define las acciones legales disponibles para los titulares de derechos en caso de infracción, permitiéndoles exigir el cese de la violación, así como la reparación de los daños y perjuicios ocasionados por el uso no autorizado de sus obras.",
+                "El Artículo 31 de la Ley N° 1322 de Propiedad Intelectual de Bolivia detalla las sanciones y medidas cautelares aplicables a quienes violen los derechos de propiedad intelectual. Este artículo establece las sanciones civiles y penales para los infractores, que incluyen multas y la confiscación de bienes relacionados con la infracción."
+                
+            ]
+        },
+        {
+            "tag": "transito_Estacionamiento_paradas",
+            "patterns": [
+                "estacionamiento",
+                "estacionarse",
+                "estacionarme",
+                "estacione"
+                
+            ],
+            "responses": [
+                "El Artículo 42 del Código de Tránsito de Bolivia establece que todo conductor que estacione, pare o detenga su vehículo debe hacerlo sobre el costado derecho de la vía, asegurándose de no obstaculizar la libre circulación. Las sanciones por el incumplimiento de esta normativa pueden incluir multas y la posibilidad de remoción del vehículo.",
+                "El Artículo 43 del Código de Tránsito de Bolivia indica que en los lugares de estacionamiento, los vehículos deben conservar la posición señalada por la autoridad. El no cumplimiento puede resultar en multas y en la reubicación del vehículo por parte de las autoridades competentes.",
+                "El Artículo 44 del Código de Tránsito de Bolivia prohíbe el estacionamiento de cualquier tipo de vehículo en la calzada de las carreteras y caminos rurales, salvo en caso de necesidad insalvable, donde el conductor debe prevenir el peligro mediante señalización. Las sanciones incluyen multas y, en casos graves, la remoción del vehículo.",
+                "El Artículo 45 del Código de Tránsito de Bolivia prohíbe a los conductores detener su vehículo súbita y bruscamente, salvo en situaciones de emergencia. Las violaciones a esta norma pueden conllevar multas y, potencialmente, la suspensión de la licencia de conducir.",
+                "El Artículo 46 del Código de Tránsito de Bolivia establece que está prohibido estacionar, parar o detener el vehículo en lugares no autorizados por la Policía del Tránsito. Las sanciones por este incumplimiento pueden incluir multas y la remoción del vehículo."
+            ]
+        },
+        {
+            "tag": "transito_velocidad",
+            "patterns": [
+                "alta velocidad",
+                "velocidad"
+
+            ],
+            "responses": [
+                "El Artículo 35 del Código de Tránsito de Bolivia establece que ningún vehículo podrá circular a velocidades superiores o inferiores a las establecidas por la Policía de Tránsito de acuerdo con la normativa vigente. El incumplimiento de esta regulación puede conllevar sanciones que incluyen multas y la suspensión de la licencia de conducir.",
+                "El Artículo 36 del Código de Tránsito de Bolivia señala que el conductor está obligado a disminuir la velocidad por debajo de la autorizada y, si es necesario, a detener el vehículo ante circunstancias de circulación que afecten la seguridad, como el estado de la vía, condiciones atmosféricas adversas o falta de visibilidad. Las sanciones por no cumplir con esta obligación pueden incluir multas y la posibilidad de ser considerado responsable en caso de un accidente debido a la falta de atención a las condiciones de la vía.",
+                "El Artículo 38 del Código de Tránsito de Bolivia establece que el conductor, al acercarse a una zona o franja de seguridad demarcada o imaginaria, está obligado a reducir la velocidad del vehículo y a detenerlo si el paso de peatones así lo exige."
+            ]
+        },
+        {
+            "tag": "transito_carreras",
+            "patterns": [
+                "carreras de autos",
+                "competencia de autos ilegal",
+                "competencias de autos ilegales"
+
+            ],
+            "responses": [
+                "El Artículo 37 del Código de Tránsito de Bolivia prohíbe de manera terminante la realización de competencias de velocidad entre cualquier tipo de vehículos en las vías urbanas y rurales, exceptuando aquellas que estén autorizadas por la Policía de Tránsito. Esta prohibición busca garantizar la seguridad vial y prevenir accidentes. Las sanciones por incumplir esta normativa pueden incluir multas significativas, la suspensión de la licencia de conducir y, en casos de accidentes o conducta temeraria, la posibilidad de enfrentar cargos penales."
+            ]
+        },
+        {
+            "tag": "transito_grafitis",
+            "patterns": [
+                "vandalismo de señales de transito",
+                "grafitis en señales de transito",
+                "vandalismo de señal de transito",
+                "grafitis de señal de transito"
+            ],
+            "responses": [
+                "El Artículo 52 del Código de Tránsito de Bolivia prohíbe fijar sobre las señales de tránsito o junto a ellas leyendas o símbolos que no tengan relación con las finalidades de la señalización. Esta prohibición busca mantener la claridad en la comunicación de las señales y su incumplimiento puede conllevar sanciones a quienes instalen o modifiquen las señales de manera inapropiada."
+            ]
+        },
+        {
+            "tag": "transito_señales",
+            "patterns": [
+                "tipos de señales de transito",
+                "señalizacion",
+                "señalizaciones"
+            ],
+            "responses": [
+              "El Artículo 53 del Código de Tránsito de Bolivia establece que las autoridades son responsables de mantener en buen estado las señales de tránsito y de verificar que sean visibles y efectivas para la circulación de vehículos y peatones. Esto incluye la obligación de reparar o reemplazar señales dañadas o faltantes. La negligencia en el cumplimiento de estas responsabilidades puede resultar en sanciones, que pueden incluir multas a las autoridades responsables y la obligación de corregir las deficiencias en un plazo determinado.",
+              "El Artículo 55 del Código de Tránsito de Bolivia establece que las señales de tránsito deben ser colocadas en posiciones que garanticen su perfecta visibilidad tanto de día como de noche, y a distancias que sean compatibles con la seguridad de la circulación.",
+              "El Artículo 58 del Código de Tránsito de Bolivia señala que toda obra, obstáculo o peligro para la circulación debe ser inmediatamente señalizada. La responsabilidad de la señalización reglamentaria recae en la entidad, empresa o persona que ejecuta la obra, así como en la autoridad competente. La falta de señalización adecuada puede resultar en sanciones por daños o accidentes causados por la negligencia en la señalización de peligros.",
+              "El Artículo 64 del Código de Tránsito de Bolivia establece que tanto conductores como peatones están obligados a cumplir y respetar las señales de tránsito. El incumplimiento de esta normativa puede acarrear sanciones, que incluyen multas y otras penalizaciones, dependiendo de la gravedad de la infracción."
+            ]
+        },
+        {
+            "tag": "transito_pasajeros",
+            "patterns": [
+                "pasajeros",
+                "respeto de los pasajeros",
+                "conductor me falto el respeto",
+                "chofer me falto el respeto",
+                "derechos de los pasajeros",
+                "derechos del pasajero",
+                "responsabilidad del pasajero",
+                "reclamos de los pasajeros"
+            ],
+            "responses": [
+                "El Artículo 67 del Código de Tránsito de Bolivia establece que tanto el pasajero como el conductor deben mantener un trato cortés y respetuoso entre sí. La falta de respeto puede dar lugar a sanciones, que incluyen multas o advertencias por comportamientos inadecuados durante el servicio de transporte.",
+                "El Artículo 68 del Código de Tránsito de Bolivia señala que, en situaciones de peligro o accidentes, los pasajeros, el conductor y los auxiliares deben ofrecerse mutua asistencia y cooperación. La omisión de asistencia en tales situaciones puede implicar sanciones administrativas y la posibilidad de ser responsabilizados civilmente por los daños ocasionados.",
+                "El Artículo 69 del Código de Tránsito de Bolivia establece que los pasajeros tienen derecho a un servicio cómodo y seguro, lo cual no debe ser desconocido ni menoscabado por nadie. Sin embargo, también tienen la obligación de no incurrir en actitudes que puedan perjudicar el buen servicio o molestar a otros pasajeros. Las infracciones pueden resultar en sanciones, que van desde advertencias hasta multas por comportamiento disruptivo.",
+                "El Artículo 70 del Código de Tránsito de Bolivia estipula que los pasajeros tienen derecho a un trato de seguridad. No obstante, los pasajeros que no cumplen con ciertas condiciones, como aquellos comprendidos en los incisos d y e del Articulo 66 que incluyen a los pasajeros que no respetan las normas de conducta y aquellos que llevan equipaje o animales que no cumplen con las regulaciones, no tienen derecho a las protecciones establecidas en este Código.",
+                "El Artículo 72 del Código de Tránsito de Bolivia establece que el pasajero es responsable de los daños y perjuicios que cause arbitrariamente al vehículo, al conductor o a otros ocupantes. Esto significa que los pasajeros deben ser conscientes de su comportamiento, y cualquier daño ocasionado puede resultar en sanciones económicas por los costos de reparación y compensación.",
+                "El Artículo 73 del Código de Tránsito de Bolivia establece que para subir o bajar de un vehículo, los pasajeros deben hacerlo por el lado de la acera o berma, nunca en la calzada, para garantizar su seguridad y la de los demás. Ignorar esta norma puede resultar en sanciones que incluyen multas y advertencias.",
+                "El Artículo 74 del Código de Tránsito de Bolivia indica que cuando un pasajero necesite presentar una reclamación, debe hacerlo ante la autoridad competente, individualizando a la persona responsable y proporcionando los datos necesarios para el proceso. La falta de seguir este procedimiento podría complicar la resolución de la queja y potencialmente limitar las acciones que se pueden tomar."
+            ]
+        },
+        {
+            "tag": "transito_carga",
+            "patterns": [
+                "llevar mucho peso",
+                "llevar mucha carga en el auto",
+                "llevar mucha carga en el trailer",
+                "llevar mucha carga",
+                "responsabilidad al cargar",
+                "cargar peso",
+                "exceso de peso",
+                "exceso de carga"
+            ],
+            "responses": [
+                "El Artículo 81 del Código de Tránsito de Bolivia establece que el peso y volumen de la carga no deben ser superiores a la capacidad del vehículo, con el objetivo de garantizar la seguridad vial y la estabilidad del transporte. El incumplimiento de esta norma puede resultar en varias sanciones, tales como multas económicas que varían según la gravedad de la infracción, la inmovilización del vehículo hasta que la carga se ajuste a los límites permitidos, y la responsabilidad civil en caso de que la sobrecarga provoque un accidente, lo que podría implicar compensaciones por daños a terceros o a la infraestructura vial."
+                
+            ]
+        },
+        {
+            "tag": "transito_extravio_carga",
+            "patterns": [
+                "extravio de carga",
+                "perdida de carga",
+                "extravio de encargos",
+                "deterioro de la carga"
+            ],
+            "responses": [
+                "El Artículo 82 establece que las empresas de transporte y los propietarios de vehículos son responsables de la conducción de la carga, asegurando que se maneje según la calidad y condiciones declaradas, y deben entregarla en el tiempo y lugar convenido. Si ocurre un extravío, pérdida o deterioro total o parcial de la carga, están obligados a pagar su valor y a resarcir los daños y perjuicios ocasionados. Esto significa que pueden enfrentar sanciones económicas significativas y posibles acciones legales si no cumplen con estas responsabilidades.",
+                "El Artículo 83 señala que el conductor también es responsable ante la empresa o propietario del vehículo por el extravío, pérdida o deterioro de la carga. Esto implica que el conductor debe asegurarse de que la carga se maneje de manera segura y conforme a lo pactado. Si el conductor no cumple con estas responsabilidades, puede enfrentar repercusiones financieras y disciplinarias, además de la posible responsabilidad civil por daños."
+                
+            ]
+        },
+
+        {
+            "tag": "transito_derechos_conductor",
+            "patterns": [
+                "derechos del conductor",
+                "trato al conductor",
+                "instruccion al conductor"
+            ],
+            "responses": [
+                "El Artículo 91 del Código de Tránsito establece que toda persona legalmente autorizada tiene el derecho a conducir en el territorio de la República el vehículo correspondiente a la clase de licencia que posee.",
+                "El Artículo 92 del Código de Tránsito asegura que el conductor tiene derecho a un trato respetuoso y cortés por parte de las autoridades, así como de pasajeros, peatones y propietarios del vehículo que tiene a su cargo. En caso de que este derecho sea vulnerado, el conductor puede presentar quejas ante las autoridades competentes, y quienes lo infrinjan pueden enfrentar sanciones administrativas.",
+                "El Artículo 93 del Código de Tránsito otorga al conductor el derecho a utilizar los servicios de auxilio público en situaciones de peligro o en caso de accidente.",
+                "El Artículo 94 del Código de Tránsito establece que el conductor tiene derecho a participar en los beneficios de instrucción y actualización técnico-profesional que impartan las autoridades del Tránsito."
+            ]
+        },
+        {
+            "tag": "transito_licensia",
+            "patterns": [
+                "licencia de conducir",
+                "carnet para conducir",
+                "licencia para auto",
+                "licencia para moto"
+            ],
+            "responses": [
+                "Los Artículos 109, 110, 111 y 112 del Código de Tránsito de Bolivia regulan las licencias de conducir. El Artículo 109 define la licencia como un documento personal e intransferible que acredita la capacidad del titular para conducir vehículos. Según el Artículo 110, la licencia es otorgada por la Policía de Tránsito, tiene validez en todo el país y debe ser renovada cada cinco años. El Artículo 111 clasifica las licencias en diferentes categorías, incluyendo licencia de ciclista, motociclista, conductor particular, chófer profesional y motorista. Finalmente, el Artículo 112 establece que un conductor particular que desee obtener la licencia de chófer profesional debe aprobar exámenes complementarios, garantizando que los chóferes cuenten con las habilidades necesarias para manejar de manera segura."
+            ]
+        },
+        {
+            "tag": "transito_placas",
+            "patterns": [
+                "placa",                
+                "placas",
+                "placas del auto",
+                "matriculas del auto"
+            ],
+            "responses": [
+                "Artículo 123 del Código de Tránsito establece que todos los vehículos deben llevar una placa de identificación que coincida obligatoriamente con el número registrado en el carnet de propiedad del vehículo. Esto permite su correcta identificación y registro en el sistema de tránsito. Las sanciones por no cumplir con este requisito pueden incluir multas y la posibilidad de que el vehículo sea retirado temporalmente de circulación.",
+                "Artículo 124 Código de Tránsito señala que ningún vehículo puede circular sin placas en las vías públicas de Bolivia. Circular sin placa o con placas alteradas es una infracción que puede llevar a multas, la inmovilización del vehículo y su retiro temporal por las autoridades de tránsito, hasta que el propietario regularice su situación."
+            ]
+        },
+        {
+            "tag": "transito_cancelacion",
+            "patterns": [
+                "cancelacion",
+                "desaucio del auto",
+                "descontinuacion del auto"
+            ],
+            "responses": [
+                
+                "En el Artículo 128 del Código de Tránsito cuando un vehículo sea retirado de la circulación, las placas serán devueltas a la Policía del Tránsito para su destrucción y cancelación del respectivo registro, debiendo darse el aviso correspondiente a la Renta."
+            ]
+        },
+        {
+            "tag": "ley070",
+            "patterns": [
+                "ley 070 de la educacion",
+                "ley 70 de la educacion",
+                "ley setenta de aseguramiento",
+                "ley setenta de la educacion",
+                "avelino siñani"
+
+            ],
+            "responses": [
+                "La Ley N° 070 de Aseguramiento de la Educación, promulgada en Bolivia en 2010, establece que la educación es un derecho humano fundamental y debe ser gratuita y obligatoria en los niveles inicial y primario. La ley promueve la inclusión, equidad y calidad en el acceso a la educación, garantizando que todos los niños y jóvenes, sin discriminación, puedan acceder a un sistema educativo que respete su diversidad cultural y social. Se detallan las responsabilidades del Estado en la provisión de recursos, la regulación de la calidad educativa y la implementación de políticas específicas para atender a poblaciones vulnerables. A través de sus artículos, la ley busca eliminar barreras que impidan el ejercicio pleno del derecho a la educación y establece mecanismos de supervisión y control para asegurar su cumplimiento."
+            ]
+        },
+        {
+            "tag": "ley348",
+            "patterns": [
+                "ley 348 de defensa de mujeres",
+                "ley trescientos cuarenta y ocho de defensa de mujeres",
+                "ley trescientoscuarentayocho de defensa de mujeres",
+                "ley integral para garantizar"
+            ],
+            "responses": [
+                "La Ley N° 348, Ley Integral para Garantizar a las Mujeres una Vida Libre de Violencia, en Bolivia, establece un marco legal para prevenir, sancionar y erradicar la violencia contra las mujeres. La ley define diversos tipos de violencia, incluyendo física, psicológica, sexual, económica y patrimonial, y promueve la protección integral de las víctimas mediante medidas como asistencia jurídica gratuita, apoyo médico y psicológico, y medidas de protección. Además, tipifica delitos graves como el feminicidio, imponiendo penas severas a los agresores."
+            ]
+        },
+        {
+            "tag": "ley_369",
+            "patterns": [
+                "ley 369 de las personas adultas",
+                "ley 369 de los adultos mayores",
+                "ley trescientos sesenta y nueve de las personas adultas",
+                "ley trescientos sesenta y nueve de los adultos mayores",
+                "ley trescientossesentaynueve de las personas adultas",
+                "ley trescientossesentaynueve de los adultos mayores"
+            ],
+            "responses": [
+                "La Ley N° 369 de las Personas Adultas Mayores, promulgada en Bolivia en 2013, tiene como objetivo garantizar los derechos y el bienestar de las personas adultas mayores (60 años o más). La ley establece una serie de derechos fundamentales, como el acceso a la salud, la seguridad social, la protección contra el maltrato, la violencia y la discriminación. Además, promueve la inclusión social, la participación activa de los adultos mayores en la comunidad, y asegura su protección económica y jurídica. Tanto el Estado como las familias y la sociedad en general son responsables de garantizar una vida digna para las personas adultas mayores, velando por su integridad física, psicológica y emocional."
+            ]
+        },
+        {
+            "tag": "ley603",
+            "patterns": [
+                "ley 603 del codigo de las familias",
+                "ley 603 familia",
+                "ley seiscientos tres del codigo de las familias",
+                "ley seiscientos tres familia",
+                "ley seiscientostres del codigo de las familias",
+                "ley seiscientostres familia"
+            ],
+            "responses": [
+                "La Ley N° 603 del Código de las Familias y del Proceso Familiar regula todos los aspectos relacionados con el derecho familiar en Bolivia, incluyendo el divorcio, la tenencia de los hijos, el régimen de visitas y las obligaciones alimentarias. Facilita el proceso de divorcio sin necesidad de probar causa específica, establece principios para la tenencia compartida o individual basada en el interés superior del niño, y asegura el derecho de visitas del progenitor sin tenencia. Además, garantiza el derecho de los hijos a recibir alimentos, regulando la determinación y cumplimiento de la pensión alimenticia, con medidas coercitivas para asegurar su pago en caso de incumplimiento. La ley prioriza el bienestar y los derechos de los menores en todas las decisiones relacionadas con la familia."
+            ]
+        },
+        {
+            "tag": "ley700",
+            "patterns": [
+                "ley 700 de defensa",
+                "ley 700 para la defensa",
+                "ley 700 proteccion",
+                "ley setecientos de defensa",
+                "ley setecientos para la defensa",
+                "ley setecientos proteccion"
+            ],
+            "responses": [
+                "La Ley N° 700 de Protección y Defensa de los Animales tiene como objetivo principal prevenir y sancionar los actos de maltrato, crueldad, violencia y biocidio hacia los animales domésticos en Bolivia. Establece normas para la protección de los animales, incluyendo la prohibición de cualquier forma de maltrato y la imposición de sanciones para quienes cometan estas infracciones. La ley también regula el funcionamiento de refugios y centros de atención para asegurar que los animales reciban el cuidado adecuado. Además, define procedimientos para la denuncia y procesamiento de casos de maltrato, promoviendo la sensibilización y la educación en torno al bienestar animal."
+            ]
+        },
+        {
+            "tag": "ley1008",
+            "patterns": [
+                "ley 1008 de regulacion de la coca",
+                "ley 1008 sustancias",
+                "ley mil ocho de regimen",
+                "ley milocho de regimen"
+            ],
+            "responses": [
+                "La Ley N° 1008 de Régimen de la Coca y Sustancias Controladas en Bolivia regula la producción, comercialización, y posesión de sustancias controladas, incluyendo la coca y sus derivados, así como otras drogas. La ley establece un marco legal para combatir el tráfico y la producción ilegal de estas sustancias, define las categorías y sanciones para distintos delitos relacionados, y diferencia entre posesión para consumo personal y tráfico. Las sanciones varían según la cantidad de sustancia y el tipo de infracción, con penas más severas para el tráfico y la comercialización, y medidas más moderadas para la posesión en pequeñas cantidades destinadas al consumo personal."
+            ]
+        },
+        {
+            "tag": "ley1322",
+            "patterns": [
+                "ley 1322 de propiedad",
+                "ley 1322 derechos de autor",
+                "ley mil trescientos veintidos de propiedad",
+                "ley mil trescientos veintidos derechos de autor",
+                "ley miltrescientosveintidos de propiedad",
+                "ley miltrescientosveintidos derechos de autor"
+
+            ],
+            "responses": [
+                "La Ley N° 1322, promulgada el 13 de abril de 1992 en Bolivia, es conocida como la Ley de Derechos de Autor. Esta normativa establece el marco legal para la protección de los derechos de autor en el país, garantizando a los creadores de obras literarias, artísticas y científicas el reconocimiento y la protección de sus derechos morales y patrimoniales. La ley abarca aspectos relacionados con la creación, uso, distribución, reproducción y explotación comercial de dichas obras, con el fin de proteger tanto los intereses de los autores como los del público. Además, define las sanciones por infracción de derechos de autor y regula los procedimientos para la defensa de estos derechos."
+            ]
+        },
+        {
+            "tag": "ley1333",
+            "patterns": [
+                "ley 1333 de medio ambiente",
+                "medio ambiente ley 1333",
+                "ley trescientostreintaytres de medio",
+                "ley trescientos treinta y tres de medio"
+            ],
+            "responses": [
+                "La Ley N° 1333 de Medio Ambiente, promulgada en Bolivia en 1992, tiene como objetivo proteger, conservar y recuperar el medio ambiente y los recursos naturales, promoviendo un desarrollo sostenible. Reconoce el derecho de toda persona a un ambiente sano y equilibrado, establece la obligatoriedad de realizar Evaluaciones de Impacto Ambiental para proyectos que puedan afectar el entorno, y define sanciones para quienes infrinjan sus disposiciones. Además, fomenta la participación ciudadana en la gestión ambiental, permitiendo que las comunidades expresen sus preocupaciones, y establece medidas para la conservación y manejo sostenible de recursos naturales."
+            ]
+        },
+        {
+            "tag": "ley_general_trabajo",
+            "patterns": [
+                "ley general del trabajo",
+                "ley del trabajo"
+            ],
+            "responses": [
+                "La Ley General del Trabajo en Bolivia regula las relaciones laborales entre empleadores y trabajadores, estableciendo derechos y obligaciones para ambas partes. La ley cubre aspectos fundamentales como la contratación, condiciones de trabajo, salario, jornadas laborales, y seguridad social. También aborda temas de protección laboral, incluyendo el derecho a un salario justo, condiciones laborales seguras y la prevención de despidos injustificados. Además, la ley establece mecanismos para la resolución de conflictos laborales, promoviendo la estabilidad y el equilibrio en las relaciones laborales para asegurar un entorno de trabajo justo y equitativo."
+            ]
+        },
+        {
+            "tag": "decreto_supremo_22407",
+            "patterns": [
+                "decreto supremo 22407",
+                "decreto supremo veintidosmilcuatrocientossiete",
+                "decreto supremo veintidos mil cuatrocientos siete"
+            ],
+            "responses": [
+                "El Decreto Supremo N° 22407, promulgado en Bolivia en 1990, es una norma fundamental para la regulación de las relaciones laborales en el país. Este decreto aborda aspectos clave del derecho laboral, incluyendo la jornada de trabajo, el salario mínimo, las vacaciones, y los derechos y obligaciones tanto de empleadores como de trabajadores. Establece las normas para el cálculo de las horas extras y el descanso, así como las disposiciones para el despido y las indemnizaciones correspondientes. Además, el decreto regula la organización sindical y la negociación colectiva, buscando garantizar un entorno laboral justo y equilibrado."
+            ]
+        },
+        {
+            "tag": "codigo_transito", 
+            "patterns": [
+                "codigo de transito"
+            ],
+            "responses": [
+                "El Código de Tránsito de Bolivia es un conjunto de normativas que regula la circulación de vehículos y peatones en el país, estableciendo derechos y responsabilidades para conductores y pasajeros. Este código aborda aspectos como la obtención de licencias, el respeto a las señales de tránsito, las condiciones de seguridad vial, y las responsabilidades en caso de accidentes o incumplimientos. Además, incluye sanciones para aquellos que infrinjan las normas, como multas y posibles restricciones en la circulación."
+            ]
+        }
+    ]
+}

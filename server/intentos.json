@@ -88,7 +88,8 @@
             "tag": "divorcio",
             "patterns": [
                 "divorciar",
-                "divorcio"
+                "divorcio",
+                "divorciarme"
             ],
             "responses": [
                 "El Artículo 3 de la Ley N° 996 de Divorcio en Bolivia establece diversas causales para solicitar el divorcio, las cuales incluyen la ruptura de la convivencia, el incumplimiento de deberes conyugales, el adulterio, la violencia familiar, el abandono del hogar sin justificación y la incapacidad legal de uno de los cónyuges. Estas causales proporcionan un marco legal que permite a las partes argumentar su solicitud de divorcio"            
@@ -221,7 +222,7 @@
         {
             "tag": "ley_marihuana",
             "patterns": [
-                "mariguana","marihuana","drogas", "cocaina","sustancias ilicitas","coca"
+                "mariguana","marihuana","drogas", "cocaina","sustancias ilicitas"
             ],
             "responses": [
                 "El Artículo 60 del Código Penal de Bolivia establece las penas para los delitos relacionados con sustancias controladas, incluyendo la marihuana. Este artículo clasifica los delitos en función de la cantidad de sustancia involucrada y la intención, distinguiendo entre tráfico, producción y comercialización. Las sanciones varían desde penas de prisión para delitos graves hasta sanciones menores, como multas o trabajos comunitarios, para infracciones menos severas.",

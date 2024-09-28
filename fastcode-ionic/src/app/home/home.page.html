@@ -1,0 +1,66 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <strong>Aurora</strong>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="content" #chatContainer >
+  <!-- Lista de mensajes -->
+  <ion-item
+  lines="none"
+  [ngClass]="{ 'bot': m.sender !== 'me', 'me': m.sender === 'me' }"
+  class="chat-item"
+  *ngFor="let m of messages; index as i"
+  >
+
+
+    <ion-badge
+      slot="start"
+      [color]="m.sender === 'me' ? 'success' : 'tertiary'"
+      mode="ios">
+      <!-- Reemplaza los íconos por iconos de Ionicons -->
+      <ion-icon [name]="m.sender === 'me' ? 'person' : 'sparkles'"></ion-icon>
+    </ion-badge>
+
+    <ion-label class="ion-text-wrap">
+      {{ m.content }}
+      <ion-spinner
+        *ngIf="loading && i === messages.length - 1"
+        color="tertiary"
+        name="dots">
+      </ion-spinner>
+  </ion-label>
+
+  </ion-item>
+  
+</ion-content>
+
+
+<!-- Botón para iniciar la captura de voz -->
+<ion-footer class="ion-padding footer">
+
+  <form [formGroup]="form" (ngSubmit)="submit()" (keyup.enter)="submit()">
+    <ion-item >
+      <ion-textarea
+        formControlName="prompt"
+        auto-grow="true"
+        placeholder="Escribe algo"
+        aria-label="Mensaje"
+        >
+      </ion-textarea>
+      <ion-buttons slot="end">
+        <!-- Botón con ícono de micrófono -->
+        <ion-button (click)="startListening()" aria-label="Iniciar captura de voz" class="microphone-button">
+          <ion-icon name="mic"></ion-icon>
+        </ion-button>
+        <!-- Botón de enviar -->
+        <ion-button type="submit" aria-label="Enviar mensaje" class="send-button">
+          <ion-icon name="send"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+      
+    </ion-item>
+  </form>
+</ion-footer>
